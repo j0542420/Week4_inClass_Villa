@@ -50,7 +50,7 @@ function countdown(){
       }
       else //step 6c
       {
-         timeleft = quizTime
+         timeLeft = quizTime
          quizClock.value = timeLeft
 
          overlay.className = "hidequiz"
@@ -59,7 +59,7 @@ function countdown(){
    }
    else
    {
-      timeleft--;
+      timeLeft--;
       quizClock.value = timeLeft
    }
    
